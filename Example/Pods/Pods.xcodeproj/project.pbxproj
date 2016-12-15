@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFB1A8A0650447BAFE25A813C85161F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0C0ACEC7C536A811170EB8ABB86D9D39 /* Pods-HRLEngine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3308B340706BE0EDE8D529EC5E0185 /* Pods-HRLEngine_Tests-dummy.m */; };
+		2130758FCC824447CA0E29E846EFD4E2 /* HRLEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A4975132801E5D4C9D4E016C596322 /* HRLEngine-dummy.m */; };
+		260CB676CFAB784348DC8E8B3DB14046 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C99D98084D61C6540B0D2D5FE5B71 /* ReplaceMe.swift */; };
+		447CC13275FB75D336D12E64B5679D30 /* Pods-HRLEngine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4AF6AF3AC59BE158B3D331853FD672 /* Pods-HRLEngine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D8FF967F2999FAC4ADBAEDB783003C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		74C61C2BFF3882D7C3F9BE8342CCE239 /* Pods-HRLEngine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDEE774337F4FDE74AFD103F4377AB3 /* Pods-HRLEngine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D089EC58030F4777D0EE1C72BFFCD456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E8271D5E2D9B0D718F01FFC642DD9483 /* Pods-HRLEngine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D157C300C2FB8A92693C8B5BFE77D6 /* Pods-HRLEngine_Example-dummy.m */; };
+		F04EAE190C7BAF480D165FD395FDF939 /* HRLEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9343DED281D464201F90E210BC395EA4 /* HRLEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC968EA6FBA2E8E901F4E3DEF5ED687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E0A7812DCC6381E296F86283437E637;
+			remoteInfo = HRLEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1596D16F5C65C1369818A844F05CB377 /* Pods-HRLEngine_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLEngine_Example-resources.sh"; sourceTree = "<group>"; };
+		1626D3D763DB6F4C557F96286C4B57DD /* HRLEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLEngine.xcconfig; sourceTree = "<group>"; };
+		1ECFDD60FD11F3A99F2024E2929C6981 /* Pods-HRLEngine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLEngine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F0C99D98084D61C6540B0D2D5FE5B71 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		2EE710608D0BFD66143B315638BF7EE3 /* HRLEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HRLEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F62356459781C365333D2B0DCFE92BC /* Pods-HRLEngine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLEngine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E2344E0D9C93E87931623DD4110325D /* Pods-HRLEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLEngine_Example.modulemap"; sourceTree = "<group>"; };
+		3E4AF6AF3AC59BE158B3D331853FD672 /* Pods-HRLEngine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLEngine_Example-umbrella.h"; sourceTree = "<group>"; };
+		48C53721CF5605A84D5F0216DA2416EC /* Pods-HRLEngine_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLEngine_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		54A4975132801E5D4C9D4E016C596322 /* HRLEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRLEngine-dummy.m"; sourceTree = "<group>"; };
+		54F868C5869E1435B46641706468B06A /* Pods-HRLEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F56F7846255060F5F8E9E830C1C0517 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AFF76A352B7C804C20E8037434E03B /* Pods_HRLEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLEngine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3308B340706BE0EDE8D529EC5E0185 /* Pods-HRLEngine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLEngine_Tests-dummy.m"; sourceTree = "<group>"; };
+		812829D10034DF0CE6C737DD13773B4A /* Pods-HRLEngine_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLEngine_Tests-resources.sh"; sourceTree = "<group>"; };
+		83D22CC5F833D56D366602F52C791BD8 /* HRLEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HRLEngine.modulemap; sourceTree = "<group>"; };
+		9343DED281D464201F90E210BC395EA4 /* HRLEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLEngine-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA0F26D45A64E56559ABD3BD4AE7D44C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8237922A2751D90AA03E55037C12CD9 /* Pods-HRLEngine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLEngine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9D157C300C2FB8A92693C8B5BFE77D6 /* Pods-HRLEngine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLEngine_Example-dummy.m"; sourceTree = "<group>"; };
+		BFDEE774337F4FDE74AFD103F4377AB3 /* Pods-HRLEngine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLEngine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD3810DCE839A2F8B2AC1C9D3F3C49F8 /* Pods-HRLEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D091490DD1515EB9EF8EBEEE94664830 /* Pods_HRLEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLEngine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BADE19D57E21F5CA9AC84D4B5B76EF /* Pods-HRLEngine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLEngine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5FF783E84BF829CF5D15A66A3F4BC75 /* HRLEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLEngine-prefix.pch"; sourceTree = "<group>"; };
+		D6DEFDDAF52F4D3E8DDF662B98B88BAE /* Pods-HRLEngine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLEngine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E4DFF02C38D6CB487DC5AF97049FBE /* Pods-HRLEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E61D1E8E3CB6DE05DB995F613C7265BA /* Pods-HRLEngine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLEngine_Tests.modulemap"; sourceTree = "<group>"; };
+		F156894A17CC26AB3969F7106A49DE3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2DFBCA1D9B5A6D45C65B99D0DF7C00 /* Pods-HRLEngine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLEngine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C93AEA063BA9D42CFEFF88528B33D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089EC58030F4777D0EE1C72BFFCD456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DEF79C5C531BCC0B56F6C8637754C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8FF967F2999FAC4ADBAEDB783003C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26FF1CBFF516AAC5B42016778E6E8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFB1A8A0650447BAFE25A813C85161F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056E5F8177CE42F6D071A9E4D5B46928 /* HRLEngine */ = {
+			isa = PBXGroup;
+			children = (
+				9FF672A4548CD81E64217F38E9CF50FF /* Classes */,
+			);
+			path = HRLEngine;
+			sourceTree = "<group>";
+		};
+		140F8D5D19D671A2C784AD2FE210EF7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE710608D0BFD66143B315638BF7EE3 /* HRLEngine.framework */,
+				D091490DD1515EB9EF8EBEEE94664830 /* Pods_HRLEngine_Example.framework */,
+				63AFF76A352B7C804C20E8037434E03B /* Pods_HRLEngine_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2377A79F77C34DC1E10A09451DF29D74 /* HRLEngine */ = {
+			isa = PBXGroup;
+			children = (
+				056E5F8177CE42F6D071A9E4D5B46928 /* HRLEngine */,
+				D6F22AFFB9D5105E712EEEDD29F90687 /* Support Files */,
+			);
+			name = HRLEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B45782DB0BC450B5C09BC8841BCFCEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32936ADE4DF7AB77DE2B7331623FD169 /* Pods-HRLEngine_Example */,
+				D5374448C18845745BEAEB744369CE56 /* Pods-HRLEngine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32936ADE4DF7AB77DE2B7331623FD169 /* Pods-HRLEngine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F156894A17CC26AB3969F7106A49DE3F /* Info.plist */,
+				3E2344E0D9C93E87931623DD4110325D /* Pods-HRLEngine_Example.modulemap */,
+				D0BADE19D57E21F5CA9AC84D4B5B76EF /* Pods-HRLEngine_Example-acknowledgements.markdown */,
+				FD2DFBCA1D9B5A6D45C65B99D0DF7C00 /* Pods-HRLEngine_Example-acknowledgements.plist */,
+				B9D157C300C2FB8A92693C8B5BFE77D6 /* Pods-HRLEngine_Example-dummy.m */,
+				2F62356459781C365333D2B0DCFE92BC /* Pods-HRLEngine_Example-frameworks.sh */,
+				1596D16F5C65C1369818A844F05CB377 /* Pods-HRLEngine_Example-resources.sh */,
+				3E4AF6AF3AC59BE158B3D331853FD672 /* Pods-HRLEngine_Example-umbrella.h */,
+				D6DEFDDAF52F4D3E8DDF662B98B88BAE /* Pods-HRLEngine_Example.debug.xcconfig */,
+				CD3810DCE839A2F8B2AC1C9D3F3C49F8 /* Pods-HRLEngine_Example.release.xcconfig */,
+			);
+			name = "Pods-HRLEngine_Example";
+			path = "Target Support Files/Pods-HRLEngine_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B157D03EC889AB254888E7DEAB5B618A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				140F8D5D19D671A2C784AD2FE210EF7D /* Products */,
+				2B45782DB0BC450B5C09BC8841BCFCEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF672A4548CD81E64217F38E9CF50FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C99D98084D61C6540B0D2D5FE5B71 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B157D03EC889AB254888E7DEAB5B618A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2377A79F77C34DC1E10A09451DF29D74 /* HRLEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5374448C18845745BEAEB744369CE56 /* Pods-HRLEngine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F56F7846255060F5F8E9E830C1C0517 /* Info.plist */,
+				E61D1E8E3CB6DE05DB995F613C7265BA /* Pods-HRLEngine_Tests.modulemap */,
+				B8237922A2751D90AA03E55037C12CD9 /* Pods-HRLEngine_Tests-acknowledgements.markdown */,
+				1ECFDD60FD11F3A99F2024E2929C6981 /* Pods-HRLEngine_Tests-acknowledgements.plist */,
+				6E3308B340706BE0EDE8D529EC5E0185 /* Pods-HRLEngine_Tests-dummy.m */,
+				48C53721CF5605A84D5F0216DA2416EC /* Pods-HRLEngine_Tests-frameworks.sh */,
+				812829D10034DF0CE6C737DD13773B4A /* Pods-HRLEngine_Tests-resources.sh */,
+				BFDEE774337F4FDE74AFD103F4377AB3 /* Pods-HRLEngine_Tests-umbrella.h */,
+				D9E4DFF02C38D6CB487DC5AF97049FBE /* Pods-HRLEngine_Tests.debug.xcconfig */,
+				54F868C5869E1435B46641706468B06A /* Pods-HRLEngine_Tests.release.xcconfig */,
+			);
+			name = "Pods-HRLEngine_Tests";
+			path = "Target Support Files/Pods-HRLEngine_Tests";
+			sourceTree = "<group>";
+		};
+		D6F22AFFB9D5105E712EEEDD29F90687 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D22CC5F833D56D366602F52C791BD8 /* HRLEngine.modulemap */,
+				1626D3D763DB6F4C557F96286C4B57DD /* HRLEngine.xcconfig */,
+				54A4975132801E5D4C9D4E016C596322 /* HRLEngine-dummy.m */,
+				D5FF783E84BF829CF5D15A66A3F4BC75 /* HRLEngine-prefix.pch */,
+				9343DED281D464201F90E210BC395EA4 /* HRLEngine-umbrella.h */,
+				AA0F26D45A64E56559ABD3BD4AE7D44C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRLEngine";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0336B4BB1B675EF74E9066F3F49314E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CC13275FB75D336D12E64B5679D30 /* Pods-HRLEngine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFBF2F1AE32472278E5C1C2D42B85A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C61C2BFF3882D7C3F9BE8342CCE239 /* Pods-HRLEngine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3889F7F6C5EFCD9D3ECB3392AB8541 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04EAE190C7BAF480D165FD395FDF939 /* HRLEngine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E0A7812DCC6381E296F86283437E637 /* HRLEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BE6139E2DBAB68CC757BC31EE418FC /* Build configuration list for PBXNativeTarget "HRLEngine" */;
+			buildPhases = (
+				7426855389F68EFC70AB98C1AFB42CED /* Sources */,
+				3C93AEA063BA9D42CFEFF88528B33D5C /* Frameworks */,
+				9C3889F7F6C5EFCD9D3ECB3392AB8541 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRLEngine;
+			productName = HRLEngine;
+			productReference = 2EE710608D0BFD66143B315638BF7EE3 /* HRLEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28A73690774282536AE29E0FCB50D13B /* Pods-HRLEngine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEDF8D908D90A0AD25C21AB8CBA2C01 /* Build configuration list for PBXNativeTarget "Pods-HRLEngine_Tests" */;
+			buildPhases = (
+				2AF89411F9B3487CDC3D6495EF57A85D /* Sources */,
+				E26FF1CBFF516AAC5B42016778E6E8D7 /* Frameworks */,
+				8AFBF2F1AE32472278E5C1C2D42B85A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HRLEngine_Tests";
+			productName = "Pods-HRLEngine_Tests";
+			productReference = 63AFF76A352B7C804C20E8037434E03B /* Pods_HRLEngine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A310BA43C3227EA3508863D481F1728 /* Pods-HRLEngine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEECF55C665F7670A15570B5B53CEEF /* Build configuration list for PBXNativeTarget "Pods-HRLEngine_Example" */;
+			buildPhases = (
+				EB31F29DBC61859C6AB82F40612045A5 /* Sources */,
+				76DEF79C5C531BCC0B56F6C8637754C9 /* Frameworks */,
+				0336B4BB1B675EF74E9066F3F49314E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E919ACFA52368CE923C5E323E88E808 /* PBXTargetDependency */,
+			);
+			name = "Pods-HRLEngine_Example";
+			productName = "Pods-HRLEngine_Example";
+			productReference = D091490DD1515EB9EF8EBEEE94664830 /* Pods_HRLEngine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0E0A7812DCC6381E296F86283437E637 = {
+						LastSwiftMigration = 0820;
+					};
+					28A73690774282536AE29E0FCB50D13B = {
+						LastSwiftMigration = 0820;
+					};
+					9A310BA43C3227EA3508863D481F1728 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 140F8D5D19D671A2C784AD2FE210EF7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E0A7812DCC6381E296F86283437E637 /* HRLEngine */,
+				9A310BA43C3227EA3508863D481F1728 /* Pods-HRLEngine_Example */,
+				28A73690774282536AE29E0FCB50D13B /* Pods-HRLEngine_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF89411F9B3487CDC3D6495EF57A85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0ACEC7C536A811170EB8ABB86D9D39 /* Pods-HRLEngine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7426855389F68EFC70AB98C1AFB42CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2130758FCC824447CA0E29E846EFD4E2 /* HRLEngine-dummy.m in Sources */,
+				260CB676CFAB784348DC8E8B3DB14046 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB31F29DBC61859C6AB82F40612045A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8271D5E2D9B0D718F01FFC642DD9483 /* Pods-HRLEngine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E919ACFA52368CE923C5E323E88E808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRLEngine;
+			target = 0E0A7812DCC6381E296F86283437E637 /* HRLEngine */;
+			targetProxy = BEC968EA6FBA2E8E901F4E3DEF5ED687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		119FB60DA848C15B789E43D3A214C9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DEFDDAF52F4D3E8DDF662B98B88BAE /* Pods-HRLEngine_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLEngine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLEngine_Example/Pods-HRLEngine_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLEngine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22BEA303C507597764A468C60A4E2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E4DFF02C38D6CB487DC5AF97049FBE /* Pods-HRLEngine_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLEngine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLEngine_Tests/Pods-HRLEngine_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLEngine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30CCC3CC7BBC66737F7206465BDA0066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1626D3D763DB6F4C557F96286C4B57DD /* HRLEngine.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLEngine/HRLEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLEngine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLEngine/HRLEngine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HRLEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9299B9F1CC0BE7062B478969ACDB8D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1626D3D763DB6F4C557F96286C4B57DD /* HRLEngine.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLEngine/HRLEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLEngine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLEngine/HRLEngine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRLEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A84FB555B3EA369C9695966DA9C71C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F868C5869E1435B46641706468B06A /* Pods-HRLEngine_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLEngine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLEngine_Tests/Pods-HRLEngine_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLEngine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB348746AD1CF79D8125A42CDC161ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3810DCE839A2F8B2AC1C9D3F3C49F8 /* Pods-HRLEngine_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLEngine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLEngine_Example/Pods-HRLEngine_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLEngine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DEDF8D908D90A0AD25C21AB8CBA2C01 /* Build configuration list for PBXNativeTarget "Pods-HRLEngine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BEA303C507597764A468C60A4E2978 /* Debug */,
+				A84FB555B3EA369C9695966DA9C71C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEECF55C665F7670A15570B5B53CEEF /* Build configuration list for PBXNativeTarget "Pods-HRLEngine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119FB60DA848C15B789E43D3A214C9F5 /* Debug */,
+				FB348746AD1CF79D8125A42CDC161ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BE6139E2DBAB68CC757BC31EE418FC /* Build configuration list for PBXNativeTarget "HRLEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CCC3CC7BBC66737F7206465BDA0066 /* Debug */,
+				9299B9F1CC0BE7062B478969ACDB8D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

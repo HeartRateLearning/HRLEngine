@@ -1,0 +1,16 @@
+PODS:
+  - HRLEngine (0.1.0)
+
+DEPENDENCIES:
+  - HRLEngine (from `../`)
+
+EXTERNAL SOURCES:
+  HRLEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HRLEngine: fc48b4a4199a0711f26017fbd341515fd677cd32
+
+PODFILE CHECKSUM: 818fa95b8a33c5d2d8d674e23fb58e498acaa298
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module HRLEngine {
+  umbrella header "HRLEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
