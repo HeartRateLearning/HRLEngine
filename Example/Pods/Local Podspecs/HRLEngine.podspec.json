@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HRLEngine/Classes/**/*"
+  "source_files": "HRLEngine/Classes/**/*",
+  "dependencies": {
+    "HRLAlgorithms": [
+      "~> 0.1"
+    ]
+  }
 }

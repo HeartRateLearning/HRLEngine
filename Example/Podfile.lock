@@ -1,5 +1,7 @@
 PODS:
-  - HRLEngine (0.1.0)
+  - HRLAlgorithms (0.1.2)
+  - HRLEngine (0.1.0):
+    - HRLAlgorithms (~> 0.1)
 
 DEPENDENCIES:
   - HRLEngine (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HRLEngine: c3fc6e059d8f406fb910ea2f13d0930ede2f0645
+  HRLAlgorithms: bf51dce2d5998ea384efb161be31343c64c13ca3
+  HRLEngine: dcbf257167903e7ba44fff6a76c69256164ea287
 
 PODFILE CHECKSUM: 818fa95b8a33c5d2d8d674e23fb58e498acaa298
 
