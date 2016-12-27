@@ -12,7 +12,7 @@ import HRLAlgorithms
 public class Record: NSObject {
     fileprivate let values: [HRLValue]
 
-    fileprivate static let calendar = gmtGregorianCalendar()
+    fileprivate static let calendar = defaultCalendar()
 
     init(date: Date, bpm: Float) {
         values = [
@@ -36,11 +36,13 @@ extension Record: HRLVector {
 private extension Record {
     enum Constants {
         static let TimeZoneGMT = "GMT"
+        static let LocalePOSIX = "en_US_POSIX"
     }
 
-    static func gmtGregorianCalendar() -> Calendar {
+    static func defaultCalendar() -> Calendar {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = TimeZone(abbreviation: Constants.TimeZoneGMT)!
+        calendar.locale = Locale(identifier: Constants.LocalePOSIX)
 
         return calendar
     }
