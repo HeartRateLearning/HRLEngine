@@ -9,11 +9,21 @@
 import Foundation
 import HRLAlgorithms
 
+/// A heart rate record as expected by an `Engine` or a `DataFrame`.
 public class Record: NSObject {
     fileprivate let values: [HRLValue]
 
     fileprivate static let calendar = defaultCalendar()
 
+    /**
+        Initializes a new heart rate record.
+     
+        - Parameters:
+            - date: Date when the heart rate was recorded
+            - bpm: Beats Per Minute when the heart rate was recorded
+     
+        - Returns: A new heart rate record.
+     */
     init(date: Date, bpm: Float) {
         values = [
             HRLValue(Record.weekday(from: date)),
