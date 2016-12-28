@@ -1,7 +1,9 @@
 # HRLEngine
 
+[![CI Status](http://img.shields.io/travis/HeartRateLearning/HRLEngine.svg?style=flat)](https://travis-ci.org/HeartRateLearning/HRLEngine)
+[![codecov.io](https://codecov.io/github/HeartRateLearning/HRLEngine/coverage.svg?branch=master)](https://codecov.io/github/HeartRateLearning/HRLEngine?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HRLEngine.svg?style=flat)](http://cocoapods.org/pods/HRLEngine)
-[![License](https://img.shields.io/cocoapods/l/HRLEngine.svg?style=flat)](http://cocoapods.org/pods/HRLEngine)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/HRLEngine.svg)](http://cocoadocs.org/docsets/HRLEngine)
 
 Use Machine Learning to predict if a person is working out based of his/her heart rate.
 
