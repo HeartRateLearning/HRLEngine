@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLEngine'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'Use Machine Learning to predict if a person is working out based of his/her heart rate.'
 
   s.description      = <<-DESC

@@ -5,6 +5,8 @@
 [![Version](https://img.shields.io/cocoapods/v/HRLEngine.svg?style=flat)](http://cocoapods.org/pods/HRLEngine)
 [![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/HRLEngine.svg)](http://cocoadocs.org/docsets/HRLEngine)
 
+This repository is DEPRECATED. Refer to [HRLClassifier](https://github.com/HeartRateLearning/HRLClassifier) instead.
+
 Use Machine Learning to predict if a person is working out based of his/her heart rate.
 
 ## Example
