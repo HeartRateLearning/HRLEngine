@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLEngine'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Use Machine Learning to predict if a person is working out based of his/her heart rate.'
 
   s.description      = <<-DESC
@@ -12,6 +12,7 @@ Use Machine Learning to predict if a person is working out based of his/her hear
   s.author           = { 'Enrique de la Torre' => 'indisoluble_dev@me.com' }
   s.source           = { :git => 'https://github.com/HeartRateLearning/HRLEngine.git', :tag => s.version.to_s }
 
+  s.platform = :ios
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HRLEngine/Classes/**/*'
