@@ -23,7 +23,7 @@ public class DataFrame: NSObject {
             - record: a `Record` instance
             - isWorkingOut: if the user was working out or not at the moment `record` was recorded
      */
-    func append(record: Record, isWorkingOut: Bool) {
+    public func append(record: Record, isWorkingOut: Bool) {
         records.append(record)
         classes.append(WorkingOut(isWorkingOut).rawValue)
     }

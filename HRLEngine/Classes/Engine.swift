@@ -15,11 +15,18 @@ public class Engine {
     private let classifier = HRLKNNClassifier()
 
     /**
+        Initializes a new `Engine`
+     
+        - Returns: a new `Engine`
+     */
+    public init() {}
+
+    /**
         In order to make predictions, you have to train the `Engine` with this method.
      
         - Parameter dataFrame: A `DataFrame` instance
      */
-    func train(with dataFrame:DataFrame) {
+    public func train(with dataFrame:DataFrame) {
         let matrix = HRLMatrix()
         matrix.fill(with: dataFrame)
 
@@ -33,7 +40,7 @@ public class Engine {
      
         - Returns: `true` is the `Engine` estimates the user was working out.
      */
-    func predictedWorkingOut(for record:Record) -> Bool {
+    public func predictedWorkingOut(for record:Record) -> Bool {
         let predictedClass = classifier.predictClass(for: record)
         let workingOut = WorkingOut(rawValue: predictedClass)!
 

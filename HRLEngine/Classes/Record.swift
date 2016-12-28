@@ -24,7 +24,7 @@ public class Record: NSObject {
      
         - Returns: A new heart rate record.
      */
-    init(date: Date, bpm: Float) {
+    public init(date: Date, bpm: Float) {
         values = [
             HRLValue(Record.weekday(from: date)),
             HRLValue(Record.timeIntervalFromMidnight(to: date)),
